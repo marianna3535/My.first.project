@@ -24,10 +24,8 @@ nothing is lost between sessions.
 ## How to Run
 
 1.  Install Python 3.10+
-2.  Install the required library:
-    pip install matplotlib
-3.  Run the program:
-    python finance_tracker.py
+2.  Install matplotlib
+3.  Run python FinanceTrackerCSCA.py
 
 ## Required Libraries
 
