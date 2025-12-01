@@ -39,7 +39,7 @@ All transactions are automatically saved locally in a JSON file so nothing is lo
 
 ## Docstrings
 
--   - `__init__(window, box)`: Initialize the application.  
+- `__init__(window, box)`: Initialize the application.  
 - `build_interactive(window)`: Build the user interface.  
 - `get_category_list(window)`: Return a list of categories.  
 - `load_data(window)`: Load transaction data from file.  
