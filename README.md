@@ -37,6 +37,27 @@ All transactions are automatically saved locally in a JSON file so nothing is lo
 -   matplotlib
 -   matplotlib.backends.backend_tkagg
 
+## Docstrings
+
+-   - `__init__(window, box)`: Initialize the application.  
+- `build_interactive(window)`: Build the user interface.  
+- `get_category_list(window)`: Return a list of categories.  
+- `load_data(window)`: Load transaction data from file.  
+- `save_data(window)`: Save transaction data to file.  
+- `validate_input(window, date_str, amount_str)`: Validate user-entered date and amount.  
+- `on_add(window)`: Add a new transaction.  
+- `clear_input_fields(window)`: Clear input fields.  
+- `refresh_table(window, filtered=None)`: Refresh the transaction table.  
+- `delete_selected(window)`: Delete the selected transaction.  
+- `edit_selected(window)`: Open the edit window for selected transaction.  
+- `open_edit_window(window, index)`: Open a window to edit a specific transaction.  
+- `apply_filters(window)`: Apply date and category filters.  
+- `clear_filters(window)`: Clear all filters and refresh table.  
+- `export_csv(window)`: Export transactions to a CSV file.  
+- `aggregate_expenses_by_category(window)`: Aggregate totals by category.  
+- `show_category_chart(window, kind='pie')`: Show a category chart.  
+- `update_summary(window)`: Update summary totals.  
+
 ## Notes for Use
 
 -   Positive amounts = income
