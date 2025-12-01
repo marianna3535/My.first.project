@@ -1,9 +1,8 @@
 # Personal Finance Tracker
 
 This can be desribed as a desktop application built using python coding and imported libarys such as tkinter, csv, json, datetime, os, defaultdict, figurecanvastkagg, and figure.
-this allows users to track income, expenses, and specify categories, using desriptions, and view visual (charts) of spending breakdowns.
-All transactions are automatically saved locally in a JSON file so
-nothing is lost between sessions.
+This allows users to track income, expenses, and specify categories using desriptions, and view visual (charts) of spending breakdowns.
+All transactions are automatically saved locally in a JSON file so nothing is lost between sessions.
 
 ## Features
 
@@ -43,5 +42,5 @@ nothing is lost between sessions.
 -   Positive amounts = income
 -   Negative amounts = expenses
 -   Filters can be applied by date or category
--   Data automatically saves on every change
+-   Data automatically saves on every change, and will be saved until you open it next.
 -   Charts display spending categories visually
